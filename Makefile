@@ -1,7 +1,7 @@
 run: VigenereCipher.class
 	java VigenereCipher $(ARGS)
 
-Playfair.class: VigenereCipher.java
+VigenereCipher.class: VigenereCipher.java
 	javac VigenereCipher.java
 
 clean:
