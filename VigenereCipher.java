@@ -45,6 +45,7 @@ public class VigenereCipher {
         key = args[2];
 
         text = text.toUpperCase();
+        key = key.toUpperCase();
 
         outputText = vigenere(text, key, shift);
 
